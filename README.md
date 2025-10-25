@@ -1,2 +1,2 @@
-# core-portfolio
-Responsive portfolio website built with React
+# Core Portfolio
+A responsive portfolio website built with React.
