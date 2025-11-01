@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="rounded-3xl bg-zinc-900 flex p-2 gap-4 mx-auto justify-between">
       <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
-        <Link to="/">
+        <Link to="/home">
         <span className='flex items-center text-zinc-50'>
           <MonitorIcon />
         </span>
@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
-        <Link to="/">
+        <Link to="/work">
         <span className='flex items-center text-zinc-50'>
           <SuitcaseSimpleIcon />
         </span>
@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
 
       <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
-        <Link to="/">
+        <Link to="/stack">
         <span className='flex items-center text-zinc-50'>
           <StackSimpleIcon />
         </span>
@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
 
       <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
-        <Link to="/">
+        <Link to="/blog">
         <span className='flex items-center text-zinc-50'>
           <ChatTextIcon />
         </span>
@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
 
       <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
-        <Link to="/">
+        <Link to="/about">
         <span className='flex items-center text-zinc-50'>
           <UserCircleIcon />
         </span>
@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
 
       <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
-        <Link to="/">
+        <Link to="/contact">
         <span className='flex items-center text-zinc-50'>
           <EnvelopeSimpleIcon />
         </span>
