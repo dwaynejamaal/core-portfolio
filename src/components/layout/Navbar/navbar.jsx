@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="rounded-3xl bg-zinc-900 flex p-2 gap-4 mx-auto justify-between">
-      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
-        <Link to="/home">
+    <nav className="sticky top-4 z-50 rounded-3xl bg-zinc-900 flex p-2 gap-4 mx-auto justify-between">
+      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl">
+        <Link to="/">
         <span className='flex items-center text-zinc-50'>
           <MonitorIcon />
         </span>
         </Link>
       </div>
 
-      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
+      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl">
         <Link to="/work">
         <span className='flex items-center text-zinc-50'>
           <SuitcaseSimpleIcon />
@@ -21,7 +21,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
+      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl">
         <Link to="/stack">
         <span className='flex items-center text-zinc-50'>
           <StackSimpleIcon />
@@ -29,7 +29,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
+      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl">
         <Link to="/blog">
         <span className='flex items-center text-zinc-50'>
           <ChatTextIcon />
@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
+      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl">
         <Link to="/about">
         <span className='flex items-center text-zinc-50'>
           <UserCircleIcon />
@@ -45,7 +45,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl font-bold">
+      <div className="bg-zinc-900 p-4 rounded-2xl text-2xl">
         <Link to="/contact">
         <span className='flex items-center text-zinc-50'>
           <EnvelopeSimpleIcon />
