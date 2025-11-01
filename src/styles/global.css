@@ -3,7 +3,7 @@
 @layer base {
   html, body {
     @apply bg-zinc-900 min-h-screen;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mazzard', sans-serif;
   }
   
   #root {
