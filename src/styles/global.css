@@ -10,3 +10,11 @@
     @apply min-h-screen bg-zinc-950;
   }
 }
+
+h1 {
+  @apply text-zinc-50 text-6xl tracking-tight text-center;
+}
+
+.h1-home {
+  @apply text-zinc-50 text-9xl tracking-tight text-center;
+}
